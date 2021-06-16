@@ -374,3 +374,12 @@
 	path = glacier-wayland-session
 	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/glacier-wayland-session.git
 	branch = master
+[submodule "glacier-browser"]
+	path = glacier-browser
+	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/glacier-browser.git
+[submodule "maliit-nemo-keyboard-git"]
+	path = maliit-nemo-keyboard-git
+	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/maliit-nemo-keyboard-git.git
+[submodule "mapplauncherd-booster-qtcomponents-git"]
+	path = mapplauncherd-booster-qtcomponents-git
+	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/mapplauncherd-booster-qtcomponents-git.git
