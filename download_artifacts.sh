@@ -1,14 +1,14 @@
 #!/bin/bash
 
-source "gitlab.config.sh"
-
-if [ -z "$GITLAB_PRIVATE_TOKEN" ];then
-    echo "GITLAB_PRIVATE_TOKEN=\"\" > gitlab.config.sh" >&2
-    exit 1
-fi
-
 BASE_URL=https://gitlab.manjaro.org
 GROUP_NAME=manjaro-arm%2Fpackages%2Fcommunity%2Fnemo-ux
+
+source "gitlab.config.sh" 2> /dev/null
+
+if [ -z "$GITLAB_PRIVATE_TOKEN" ];then
+    echo "echo 'GITLAB_PRIVATE_TOKEN=\"\"' > gitlab.config.sh # Add your token from ${BASE_URL}/-/profile/personal_access_tokens" >&2
+    exit 1
+fi
 
 gitlab_data="$(mktemp /tmp/gitlab.XXXXXXX)"
 curl --request GET --header "PRIVATE-TOKEN: $GITLAB_PRIVATE_TOKEN" "${BASE_URL}/api/v4/groups/${GROUP_NAME}/projects?per_page=1000" > "$gitlab_data"
