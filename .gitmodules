@@ -386,3 +386,7 @@
 	path = mapplauncherd-booster-qtcomponents-git
 	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/mapplauncherd-booster-qtcomponents-git.git
 	branch = master
+[submodule "android-headers"]
+	path = android-headers
+	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/android-headers.git
+	branch = master
