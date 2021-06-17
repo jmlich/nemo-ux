@@ -9,8 +9,7 @@ fi
 
 BASE_URL=https://gitlab.manjaro.org
 gitlab_data="$(mktemp /tmp/gitlab.XXXXXXX)"
-#curl --request GET --header "PRIVATE-TOKEN: $GITLAB_PRIVATE_TOKEN" "${BASE_URL}/api/v4/groups/manjaro-arm%2Fpackages%2Fcommunity%2Fnemo-ux/projects?per_page=1000" > "$gitlab_data"
-gitlab_data=/tmp/gitlab.m0oxFgV
+curl --request GET --header "PRIVATE-TOKEN: $GITLAB_PRIVATE_TOKEN" "${BASE_URL}/api/v4/groups/manjaro-arm%2Fpackages%2Fcommunity%2Fnemo-ux/projects?per_page=1000" > "$gitlab_data"
 
 for PROJECT in $(jq --raw-output '.[].id|@text' "$gitlab_data"); do
 
@@ -36,9 +35,6 @@ for PROJECT in $(jq --raw-output '.[].id|@text' "$gitlab_data"); do
     unzip -o ./artifacts.zip
     rm -f ./artifacts.zip
 
-#    dir=$(echo "$repo" | sed 's/^[^:]*://')
-#    mkdir -p "$dir"
-#    git clone "$repo" "$dir"
 done
 
-#rm -f "$gitlab_data"
+rm -f "$gitlab_data"
