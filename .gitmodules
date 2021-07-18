@@ -378,10 +378,6 @@
 	path = mapplauncherd-booster-qtcomponents-git
 	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/mapplauncherd-booster-qtcomponents-git.git
 	branch = master
-[submodule "glacier-mail-git"]
-	path = glacier-mail-git
-	url = git@github.com:nemomobile-ux/glacier-mail.git
-	branch = master
 [submodule "hybris/android-headers"]
 	path = hybris/android-headers
 	url = https://gitlab.manjaro.org/manjaro-arm/packages/community/nemo-ux/android-headers
