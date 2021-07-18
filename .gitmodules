@@ -258,10 +258,6 @@
 	path = nemo-qml-plugin-configuration-git
 	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/nemo-qml-plugin-configuration-git.git
 	branch = master
-[submodule "qt5-mlite-git"]
-	path = qt5-mlite-git
-	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/qt5-mlite-git.git
-	branch = master
 [submodule "nemo-qml-plugin-devicelock-git"]
 	path = nemo-qml-plugin-devicelock-git
 	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/nemo-qml-plugin-devicelock-git.git
@@ -401,4 +397,8 @@
 [submodule "nemo-qml-plugin-email-git"]
 	path = nemo-qml-plugin-email-git
 	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/nemo-qml-plugin-email-git.git
+	branch = master
+[submodule "mlite"]
+	path = mlite
+	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/qt5-mlite-git.git
 	branch = master
