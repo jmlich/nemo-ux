@@ -390,3 +390,7 @@
 	path = devices/nemo-device-pinephone
 	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/nemo-device-pinephone.git
 	branch = master
+[submodule "glacier-mail-git"]
+	path = glacier-mail-git
+	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/glacier-mail-git.git
+	branch = master
