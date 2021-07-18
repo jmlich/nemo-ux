@@ -402,3 +402,7 @@
 	path = mlite
 	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/qt5-mlite-git.git
 	branch = master
+[submodule "qt5-quickcontrols-nemo-examples-git"]
+	path = qt5-quickcontrols-nemo-examples-git
+	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/qt5-quickcontrols-nemo-examples-git.git
+	branch = master
