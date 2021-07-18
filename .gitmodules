@@ -1,7 +1,3 @@
-[submodule "nemo-device-pinephone"]
-	path = nemo-device-pinephone
-	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/nemo-device-pinephone.git
-	branch = master
 [submodule "fingerterm-git"]
 	path = fingerterm-git
 	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/fingerterm-git.git
@@ -393,4 +389,8 @@
 [submodule "hybris/qt5-qpa-hwcomposer-plugin"]
 	path = hybris/qt5-qpa-hwcomposer-plugin
 	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/qt5-qpa-hwcomposer-plugin.git
+	branch = master
+[submodule "devices/nemo-device-pinephone"]
+	path = devices/nemo-device-pinephone
+	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/nemo-device-pinephone.git
 	branch = master
