@@ -393,3 +393,12 @@
 [submodule "glacier-browser-git"]
 	path = glacier-browser-git
 	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/glacier-browser.git
+	branch = master
+[submodule "nemo-qml-plugin-accounts-git"]
+	path = nemo-qml-plugin-accounts-git
+	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/nemo-qml-plugin-accounts-git.git
+	branch = master
+[submodule "nemo-qml-plugin-email-git"]
+	path = nemo-qml-plugin-email-git
+	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/nemo-qml-plugin-email-git.git
+	branch = master
