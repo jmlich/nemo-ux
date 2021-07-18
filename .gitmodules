@@ -166,10 +166,6 @@
 	path = libuser
 	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/libuser.git
 	branch = master
-[submodule "nemo-qml-plugin-models-git"]
-	path = nemo-qml-plugin-models-git
-	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/nemo-qml-plugin-models-git.git
-	branch = master
 [submodule "qt5-usb-moded-git"]
 	path = qt5-usb-moded-git
 	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/qt5-usb-moded-git.git
@@ -405,4 +401,8 @@
 [submodule "qt5-quickcontrols-nemo-examples-git"]
 	path = qt5-quickcontrols-nemo-examples-git
 	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/qt5-quickcontrols-nemo-examples-git.git
+	branch = master
+[submodule "nemo-qml-plugin-models"]
+	path = nemo-qml-plugin-models
+	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/nemo-qml-plugin-models-git.git
 	branch = master
