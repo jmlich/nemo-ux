@@ -25,10 +25,10 @@ fi
 # apps
 eval "$BUILD google-opensans-fonts"
 eval "$BUILD nemo-theme-glacier-git"
+eval "$BUILD nemo-theme-openmoko-git"
 eval "$BUILD maliit-nemo-keyboard-git"
 eval "$BUILD qt5-quickcontrols-nemo-git"
 eval "$BUILD qt5-glacier-app-git"
-eval "$BUILD qt5-quickcontrols-nemo-examples-git"
 eval "$BUILD glacier-calc-git"
 eval "$BUILD nemo-qml-plugin-settings-git"
 eval "$BUILD glacier-camera-git"
@@ -52,8 +52,10 @@ eval "$BUILD nemo-qml-plugin-devicelock-git"
 eval "$BUILD mlite"
 eval "$BUILD nemo-qml-plugin-configuration-git"
 eval "$BUILD nemo-qml-plugin-statusnotifier-git"
+eval "$BUILD qt5-quickcontrols-nemo-examples-git"
 eval "$BUILD qt5-iodata-git"
 eval "$BUILD sailfish-access-control-git"
+eval "$BUILD tzdata-timed-git"
 eval "$BUILD qt5-timed-git"
 eval "$BUILD nemo-qml-plugin-time-git"
 eval "$BUILD qt5-pim-git"
@@ -63,6 +65,7 @@ eval "$BUILD libngf-git"
 eval "$BUILD usb-moded-git"
 eval "$BUILD mce-git"
 eval "$BUILD sensorfw-git"
+eval "$BUILD qt5-sensors-sensorfw"
 eval "$BUILD qt5-mce-git"
 eval "$BUILD qt5-contacts-sqlite-extensions-git"
 eval "$BUILD nemo-qml-plugin-notifications-git"
@@ -72,6 +75,7 @@ eval "$BUILD qt5-ofono-nemo-extensions-git"
 eval "$BUILD qt5-connman-git"
 eval "$BUILD qt5-ngfd-git"
 eval "$BUILD qt5-usb-moded-git"
+eval "$BUILD profiled-settings-nemo-git"
 eval "$BUILD profiled-git"
 eval "$BUILD libsailfishkeyprovider-git"
 eval "$BUILD nemo-qml-plugin-systemsettings-git"
@@ -82,13 +86,43 @@ eval "$BUILD glacier-settings-git"
 eval "$BUILD buteo-syncfw"
 eval "$BUILD buteo-sync-plugin-carddav-git"
 eval "$BUILD nemo-qml-plugin-contacts-git"
+
+eval "$BUILD qt5-profile-git"
+eval "$BUILD qt-mobility-haptics-ffmemless-git"
+
+#multimedia stuff
+eval "$BUILD pulsecore-headers"
+eval "$BUILD pulseaudio-module-keepalive"
+eval "$BUILD pulseaudio-modules-nemo"
+
+eval "$BUILD libdsme"
+eval "$BUILD dsme-git"
+eval "$BUILD swi-prolog7"
+eval "$BUILD libprolog"
+eval "$BUILD libtrace-ohm"
+eval "$BUILD mce-plugin-libhybris-nondroid-git"
+eval "$BUILD ohm"
+eval "$BUILD libdres-ohm"
+eval "$BUILD policy-settings-common"
+eval "$BUILD ohm-plugins-misc"
+eval "$BUILD ohm-rule-engine"
+
+eval "$BUILD fingerterm-git"
+
+eval "$BUILD glacier-testtool-git"
+eval "$BUILD ngfd-git"
+
+
+
 eval "$BUILD lipstick-glacier-home-git"
+eval "$BUILD pulseaudio-policy-enforcement"
 eval "$BUILD glacier-wayland-session"
 
 eval "$BUILD libcommhistory-git"
 eval "$BUILD commhistory-daemon-git"
 eval "$BUILD qmf-qt5"
 eval "$BUILD nemo-qml-plugin-accounts-git"
+eval "$BUILD nemo-qml-plugin-signon-git"
 eval "$BUILD nemo-qml-plugin-messages-git"
 eval "$BUILD mkcal-git"
 eval "$BUILD contactsd-git"
@@ -103,28 +137,9 @@ eval "$BUILD glacier-mail-git"
 eval "$BUILD glacier-browser-git"
 
 # need to be clarified
-eval "$BUILD qt5-profile-git"
 eval "$BUILD sailfish-access-control-qt5-git"
 
 eval "$BUILD usb-tethering"
-
-#multimedia stuff
-eval "$BUILD pulsecore-headers"
-eval "$BUILD pulseaudio-module-keepalive"
-eval "$BUILD pulseaudio-modules-nemo"
-
-eval "$BUILD libdsme"
-eval "$BUILD dsme-git"
-eval "$BUILD libprolog"
-eval "$BUILD libtrace-ohm"
-eval "$BUILD mce-plugin-libhybris-nondroid-git"
-eval "$BUILD ohm"
-eval "$BUILD ohm-rule-engine"
-eval "$BUILD libdres-ohm"
-eval "$BUILD ohm-plugins-misc"
-eval "$BUILD policy-settings-common"
-
-eval "$BUILD fingerterm-git"
 
 # arm specific packages
 if [ "$BUILDARCH" == "aarch64" ]; then
