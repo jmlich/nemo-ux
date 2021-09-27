@@ -421,24 +421,32 @@
 [submodule "ngfd-git"]
 	path = ngfd-git
 	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/ngfd-git.git
+	branch = master
 [submodule "profiled-settings-nemo-git"]
 	path = profiled-settings-nemo-git
 	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/profiled-settings-nemo-git.git
+	branch = master
 [submodule "pulseaudio-policy-enforcement"]
 	path = pulseaudio-policy-enforcement
 	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/pulseaudio-policy-enforcement.git
+	branch = master
 [submodule "qt-mobility-haptics-ffmemless-git"]
 	path = qt-mobility-haptics-ffmemless-git
 	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/qt-mobility-haptics-ffmemless-git.git
+	branch = master
 [submodule "qt5-sensors-sensorfw"]
 	path = qt5-sensors-sensorfw
 	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/qt5-sensors-sensorfw.git
+	branch = master
 [submodule "swi-prolog7"]
 	path = swi-prolog7
 	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/swi-prolog7.git
+	branch = master
 [submodule "tzdata-timed-git"]
 	path = tzdata-timed-git
 	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/tzdata-timed-git.git
+	branch = master
 [submodule "hybris/libhybris"]
 	path = hybris/libhybris
 	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/libhybris.git
+	branch = master
