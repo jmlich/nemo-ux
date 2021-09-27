@@ -406,3 +406,39 @@
 	path = nemo-qml-plugin-models
 	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/nemo-qml-plugin-models-git.git
 	branch = master
+[submodule "nemo-qml-plugin-signon-git"]
+	path = nemo-qml-plugin-signon-git
+	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/nemo-qml-plugin-signon-git.git
+	branch = master
+[submodule "glacier-testtool-git"]
+	path = glacier-testtool-git
+	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/glacier-testtool-git.git
+	branch = master
+[submodule "nemo-theme-openmoko-git"]
+	path = nemo-theme-openmoko-git
+	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/nemo-theme-openmoko-git.git
+	branch = master
+[submodule "ngfd-git"]
+	path = ngfd-git
+	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/ngfd-git.git
+[submodule "profiled-settings-nemo-git"]
+	path = profiled-settings-nemo-git
+	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/profiled-settings-nemo-git.git
+[submodule "pulseaudio-policy-enforcement"]
+	path = pulseaudio-policy-enforcement
+	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/pulseaudio-policy-enforcement.git
+[submodule "qt-mobility-haptics-ffmemless-git"]
+	path = qt-mobility-haptics-ffmemless-git
+	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/qt-mobility-haptics-ffmemless-git.git
+[submodule "qt5-sensors-sensorfw"]
+	path = qt5-sensors-sensorfw
+	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/qt5-sensors-sensorfw.git
+[submodule "swi-prolog7"]
+	path = swi-prolog7
+	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/swi-prolog7.git
+[submodule "tzdata-timed-git"]
+	path = tzdata-timed-git
+	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/tzdata-timed-git.git
+[submodule "hybris/libhybris"]
+	path = hybris/libhybris
+	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/libhybris.git
