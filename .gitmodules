@@ -450,3 +450,71 @@
 	path = hybris/libhybris
 	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/libhybris.git
 	branch = master
+[submodule "abseil-cpp-git"]
+	path = abseil-cpp-git
+	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/abseil-cpp-git.git
+	branch = master
+[submodule "bootsplash-theme-nemo"]
+	path = bootsplash-theme-nemo
+	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/bootsplash-theme-nemo.git
+	branch = master
+[submodule "buteo-sync-plugins-social"]
+	path = buteo-sync-plugins-social
+	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/buteo-sync-plugins-social.git
+	branch = master
+[submodule "glacier-devicelock-plugin"]
+	path = glacier-devicelock-plugin
+	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/glacier-devicelock-plugin.git
+	branch = master
+[submodule "glacier-packagemanager-git"]
+	path = glacier-packagemanager-git
+	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/glacier-packagemanager-git.git
+	branch = master
+[submodule "glacier-polkit-agent"]
+	path = glacier-polkit-agent
+	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/glacier-polkit-agent.git
+	branch = master
+[submodule "glacier-weather-git"]
+	path = glacier-weather-git
+	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/glacier-weather-git.git
+	branch = master
+[submodule "gpxpy-git"]
+	path = gpxpy-git
+	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/gpxpy-git.git
+	branch = master
+[submodule "libsocialcache"]
+	path = libsocialcache
+	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/libsocialcache.git
+	branch = master
+[submodule "mapbox-gl-native-git"]
+	path = mapbox-gl-native-git
+	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/mapbox-gl-native-git.git
+	branch = master
+[submodule "mapbox-gl-qml-git"]
+	path = mapbox-gl-qml-git
+	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/mapbox-gl-qml-git.git
+	branch = master
+[submodule "ngfd-plugin-native-vibrator"]
+	path = ngfd-plugin-native-vibrator
+	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/ngfd-plugin-native-vibrator.git
+	branch = master
+[submodule "ngfd-settings-nemo"]
+	path = ngfd-settings-nemo
+	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/ngfd-settings-nemo.git
+	branch = master
+[submodule "python-otherside"]
+	path = python-otherside
+	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/python-otherside.git
+	branch = master
+[submodule "qt5-feedback-haptics-native-vibrator"]
+	path = qt5-feedback-haptics-native-vibrator
+	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/qt5-feedback-haptics-native-vibrator.git
+	branch = master
+[submodule "s2geometry-git"]
+	path = s2geometry-git
+	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/s2geometry-git.git
+	branch = master
+[submodule "devices/nemo-device-pinetab"]
+	path = devices/nemo-device-pinetab
+	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/nemo-device-pinetab.git
+	branch = master
