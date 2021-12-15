@@ -518,3 +518,7 @@
 	path = devices/nemo-device-pinetab
 	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/nemo-device-pinetab.git
 	branch = master
+[submodule "pure-maps-git"]
+	path = pure-maps-git
+	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/pure-maps-git.git
+	branch = master
