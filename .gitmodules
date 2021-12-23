@@ -522,3 +522,7 @@
 	path = pure-maps-git
 	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/pure-maps-git.git
 	branch = master
+[submodule "qt5-systems"]
+	path = qt5-systems
+	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/qt5-systems.git
+	branch = master
