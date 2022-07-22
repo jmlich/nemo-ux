@@ -3,7 +3,8 @@
 BASE_URL=https://gitlab.manjaro.org
 GROUP_NAME=manjaro-arm%2Fpackages%2Fcommunity%2Fnemo-ux
 
-source "gitlab.config.sh" 2> /dev/null
+source gitlab.config.sh 2> /dev/null
+source ~/.config/gitlab.config.sh 2> /dev/null
 
 if [ -z "$GITLAB_PRIVATE_TOKEN" ];then
     echo "echo 'GITLAB_PRIVATE_TOKEN=\"\"' > gitlab.config.sh # Add your token from ${BASE_URL}/-/profile/personal_access_tokens" >&2

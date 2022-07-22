@@ -1,7 +1,3 @@
-[submodule "fingerterm-git"]
-	path = fingerterm-git
-	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/fingerterm-git.git
-	branch = master
 [submodule "policy-settings-common"]
 	path = policy-settings-common
 	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/policy-settings-common.git
@@ -22,10 +18,6 @@
 	path = ohm
 	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/ohm.git
 	branch = master
-[submodule "mce-plugin-libhybris-nondroid-git"]
-	path = mce-plugin-libhybris-nondroid-git
-	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/mce-plugin-libhybris-nondroid-git.git
-	branch = master
 [submodule "libtrace-ohm"]
 	path = libtrace-ohm
 	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/libtrace-ohm.git
@@ -33,10 +25,6 @@
 [submodule "libprolog"]
 	path = libprolog
 	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/libprolog.git
-	branch = master
-[submodule "dsme-git"]
-	path = dsme-git
-	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/dsme-git.git
 	branch = master
 [submodule "libdsme"]
 	path = libdsme
@@ -66,10 +54,6 @@
 	path = qt5-around-git
 	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/qt5-around-git.git
 	branch = master
-[submodule "qt5-profile-git"]
-	path = qt5-profile-git
-	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/qt5-profile-git.git
-	branch = master
 [submodule "glacier-dialer-git"]
 	path = glacier-dialer-git
 	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/glacier-dialer-git.git
@@ -86,57 +70,13 @@
 	path = glacier-messages-git
 	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/glacier-messages-git.git
 	branch = master
-[submodule "contactsd-git"]
-	path = contactsd-git
-	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/contactsd-git.git
-	branch = master
-[submodule "mkcal-git"]
-	path = mkcal-git
-	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/mkcal-git.git
-	branch = master
-[submodule "nemo-qml-plugin-messages-git"]
-	path = nemo-qml-plugin-messages-git
-	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/nemo-qml-plugin-messages-git.git
-	branch = master
 [submodule "qmf-qt5"]
 	path = qmf-qt5
 	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/qmf-qt5.git
 	branch = master
-[submodule "commhistory-daemon-git"]
-	path = commhistory-daemon-git
-	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/commhistory-daemon-git.git
-	branch = master
-[submodule "libcommhistory-git"]
-	path = libcommhistory-git
-	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/libcommhistory-git.git
-	branch = master
-[submodule "lipstick-glacier-home-git"]
-	path = lipstick-glacier-home-git
-	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/lipstick-glacier-home-git.git
-	branch = master
-[submodule "nemo-qml-plugin-contacts-git"]
-	path = nemo-qml-plugin-contacts-git
-	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/nemo-qml-plugin-contacts-git.git
-	branch = master
-[submodule "buteo-sync-plugin-carddav-git"]
-	path = buteo-sync-plugin-carddav-git
-	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/buteo-sync-plugin-carddav-git.git
-	branch = master
 [submodule "buteo-syncfw"]
 	path = buteo-syncfw
 	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/buteo-syncfw.git
-	branch = master
-[submodule "glacier-settings-git"]
-	path = glacier-settings-git
-	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/glacier-settings-git.git
-	branch = master
-[submodule "nemo-qml-plugin-connectivity-git"]
-	path = nemo-qml-plugin-connectivity-git
-	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/nemo-qml-plugin-connectivity-git.git
-	branch = master
-[submodule "qt5-lipstick-git"]
-	path = qt5-lipstick-git
-	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/qt5-lipstick-git.git
 	branch = master
 [submodule "mapplauncherd-qt-git"]
 	path = mapplauncherd-qt-git
@@ -146,17 +86,9 @@
 	path = mapplauncherd-git
 	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/mapplauncherd-git.git
 	branch = master
-[submodule "nemo-qml-plugin-systemsettings-git"]
-	path = nemo-qml-plugin-systemsettings-git
-	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/nemo-qml-plugin-systemsettings-git.git
-	branch = master
 [submodule "libsailfishkeyprovider-git"]
 	path = libsailfishkeyprovider-git
 	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/libsailfishkeyprovider-git.git
-	branch = master
-[submodule "profiled-git"]
-	path = profiled-git
-	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/profiled-git.git
 	branch = master
 [submodule "sailfish-user-managerd-git"]
 	path = sailfish-user-managerd-git
@@ -166,21 +98,9 @@
 	path = libuser
 	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/libuser.git
 	branch = master
-[submodule "qt5-usb-moded-git"]
-	path = qt5-usb-moded-git
-	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/qt5-usb-moded-git.git
-	branch = master
-[submodule "qt5-ngfd-git"]
-	path = qt5-ngfd-git
-	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/qt5-ngfd-git.git
-	branch = master
 [submodule "nemo-qml-plugin-contentaction-git"]
 	path = nemo-qml-plugin-contentaction-git
 	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/nemo-qml-plugin-contentaction-git.git
-	branch = master
-[submodule "qt5-connman-git"]
-	path = qt5-connman-git
-	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/qt5-connman-git.git
 	branch = master
 [submodule "qt5-ofono-nemo-extensions-git"]
 	path = qt5-ofono-nemo-extensions-git
@@ -194,93 +114,13 @@
 	path = libqofono-qt5
 	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/libqofono-qt5.git
 	branch = master
-[submodule "nemo-qml-plugin-notifications-git"]
-	path = nemo-qml-plugin-notifications-git
-	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/nemo-qml-plugin-notifications-git.git
-	branch = master
-[submodule "qt5-contacts-sqlite-extensions-git"]
-	path = qt5-contacts-sqlite-extensions-git
-	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/qt5-contacts-sqlite-extensions-git.git
-	branch = master
-[submodule "qt5-mce-git"]
-	path = qt5-mce-git
-	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/qt5-mce-git.git
-	branch = master
-[submodule "sensorfw-git"]
-	path = sensorfw-git
-	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/sensorfw-git.git
-	branch = master
-[submodule "mce-git"]
-	path = mce-git
-	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/mce-git.git
-	branch = master
-[submodule "usb-moded-git"]
-	path = usb-moded-git
-	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/usb-moded-git.git
-	branch = master
-[submodule "libngf-git"]
-	path = libngf-git
-	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/libngf-git.git
-	branch = master
-[submodule "qt5-mlocale-git"]
-	path = qt5-mlocale-git
-	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/qt5-mlocale-git.git
-	branch = master
-[submodule "qt5-pim-git"]
-	path = qt5-pim-git
-	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/qt5-pim-git.git
-	branch = master
-[submodule "nemo-qml-plugin-time-git"]
-	path = nemo-qml-plugin-time-git
-	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/nemo-qml-plugin-time-git.git
-	branch = master
-[submodule "qt5-timed-git"]
-	path = qt5-timed-git
-	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/qt5-timed-git.git
-	branch = master
-[submodule "sailfish-access-control-git"]
-	path = sailfish-access-control-git
-	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/sailfish-access-control-git.git
-	branch = master
-[submodule "qt5-iodata-git"]
-	path = qt5-iodata-git
-	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/qt5-iodata-git.git
-	branch = master
-[submodule "nemo-qml-plugin-statusnotifier-git"]
-	path = nemo-qml-plugin-statusnotifier-git
-	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/nemo-qml-plugin-statusnotifier-git.git
-	branch = master
-[submodule "nemo-qml-plugin-configuration-git"]
-	path = nemo-qml-plugin-configuration-git
-	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/nemo-qml-plugin-configuration-git.git
-	branch = master
-[submodule "nemo-qml-plugin-devicelock-git"]
-	path = nemo-qml-plugin-devicelock-git
-	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/nemo-qml-plugin-devicelock-git.git
-	branch = master
 [submodule "ssu-sysinfo-git"]
 	path = ssu-sysinfo-git
 	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/ssu-sysinfo-git.git
 	branch = master
-[submodule "nemo-keepalive-git"]
-	path = nemo-keepalive-git
-	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/nemo-keepalive-git.git
-	branch = master
-[submodule "libiphb-git"]
-	path = libiphb-git
-	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/libiphb-git.git
-	branch = master
-[submodule "mce-headers-git"]
-	path = mce-headers-git
-	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/mce-headers-git.git
-	branch = master
 [submodule "glacier-music-git"]
 	path = glacier-music-git
 	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/glacier-music-git.git
-	branch = master
-[submodule "qt5-mpris-git"]
-	path = qt5-mpris-git
-	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/qt5-mpris-git.git
 	branch = master
 [submodule "qt5-dbus-extended-git"]
 	path = qt5-dbus-extended-git
@@ -290,29 +130,9 @@
 	path = glacier-gallery-git
 	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/glacier-gallery-git.git
 	branch = master
-[submodule "qtdocgallery-git"]
-	path = qtdocgallery-git
-	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/qtdocgallery-git.git
-	branch = master
-[submodule "nemo-qml-plugin-thumbnailer-git"]
-	path = nemo-qml-plugin-thumbnailer-git
-	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/nemo-qml-plugin-thumbnailer-git.git
-	branch = master
-[submodule "qt5-resource-git"]
-	path = qt5-resource-git
-	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/qt5-resource-git.git
-	branch = master
-[submodule "meego-resource-git"]
-	path = meego-resource-git
-	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/meego-resource-git.git
-	branch = master
 [submodule "glacier-filemuncher-git"]
 	path = glacier-filemuncher-git
 	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/glacier-filemuncher-git.git
-	branch = master
-[submodule "nemo-qml-plugin-folderlistmodel-git"]
-	path = nemo-qml-plugin-folderlistmodel-git
-	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/nemo-qml-plugin-folderlistmodel-git.git
 	branch = master
 [submodule "glacier-camera-git"]
 	path = glacier-camera-git
@@ -322,25 +142,9 @@
 	path = nemo-qml-plugin-sortfiltermodel-git
 	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/nemo-qml-plugin-sortfiltermodel-git.git
 	branch = master
-[submodule "nemo-qml-plugin-settings-git"]
-	path = nemo-qml-plugin-settings-git
-	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/nemo-qml-plugin-settings-git.git
-	branch = master
 [submodule "glacier-calc-git"]
 	path = glacier-calc-git
 	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/glacier-calc-git.git
-	branch = master
-[submodule "qt5-glacier-app-git"]
-	path = qt5-glacier-app-git
-	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/qt5-glacier-app-git.git
-	branch = master
-[submodule "qt5-quickcontrols-nemo-git"]
-	path = qt5-quickcontrols-nemo-git
-	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/qt5-quickcontrols-nemo-git.git
-	branch = master
-[submodule "nemo-theme-glacier-git"]
-	path = nemo-theme-glacier-git
-	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/nemo-theme-glacier-git.git
 	branch = master
 [submodule "google-opensans-fonts"]
 	path = google-opensans-fonts
@@ -357,10 +161,6 @@
 [submodule "glacier-wayland-session"]
 	path = glacier-wayland-session
 	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/glacier-wayland-session.git
-	branch = master
-[submodule "maliit-nemo-keyboard-git"]
-	path = maliit-nemo-keyboard-git
-	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/maliit-nemo-keyboard-git.git
 	branch = master
 [submodule "mapplauncherd-booster-qtcomponents-git"]
 	path = mapplauncherd-booster-qtcomponents-git
@@ -382,18 +182,6 @@
 	path = glacier-mail-git
 	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/glacier-mail-git.git
 	branch = master
-[submodule "glacier-browser-git"]
-	path = glacier-browser-git
-	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/glacier-browser.git
-	branch = master
-[submodule "nemo-qml-plugin-accounts-git"]
-	path = nemo-qml-plugin-accounts-git
-	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/nemo-qml-plugin-accounts-git.git
-	branch = master
-[submodule "nemo-qml-plugin-email-git"]
-	path = nemo-qml-plugin-email-git
-	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/nemo-qml-plugin-email-git.git
-	branch = master
 [submodule "mlite"]
 	path = mlite
 	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/qt5-mlite-git.git
@@ -406,33 +194,13 @@
 	path = nemo-qml-plugin-models
 	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/nemo-qml-plugin-models-git.git
 	branch = master
-[submodule "nemo-qml-plugin-signon-git"]
-	path = nemo-qml-plugin-signon-git
-	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/nemo-qml-plugin-signon-git.git
-	branch = master
-[submodule "glacier-testtool-git"]
-	path = glacier-testtool-git
-	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/glacier-testtool-git.git
-	branch = master
 [submodule "nemo-theme-openmoko-git"]
 	path = nemo-theme-openmoko-git
 	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/nemo-theme-openmoko-git.git
 	branch = master
-[submodule "ngfd-git"]
-	path = ngfd-git
-	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/ngfd-git.git
-	branch = master
-[submodule "profiled-settings-nemo-git"]
-	path = profiled-settings-nemo-git
-	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/profiled-settings-nemo-git.git
-	branch = master
 [submodule "pulseaudio-policy-enforcement"]
 	path = pulseaudio-policy-enforcement
 	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/pulseaudio-policy-enforcement.git
-	branch = master
-[submodule "qt-mobility-haptics-ffmemless-git"]
-	path = qt-mobility-haptics-ffmemless-git
-	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/qt-mobility-haptics-ffmemless-git.git
 	branch = master
 [submodule "qt5-sensors-sensorfw"]
 	path = qt5-sensors-sensorfw
@@ -442,17 +210,9 @@
 	path = swi-prolog7
 	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/swi-prolog7.git
 	branch = master
-[submodule "tzdata-timed-git"]
-	path = tzdata-timed-git
-	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/tzdata-timed-git.git
-	branch = master
 [submodule "hybris/libhybris"]
 	path = hybris/libhybris
 	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/libhybris.git
-	branch = master
-[submodule "abseil-cpp-git"]
-	path = abseil-cpp-git
-	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/abseil-cpp-git.git
 	branch = master
 [submodule "bootsplash-theme-nemo"]
 	path = bootsplash-theme-nemo
@@ -525,4 +285,272 @@
 [submodule "qt5-systems"]
 	path = qt5-systems
 	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/qt5-systems.git
+	branch = master
+[submodule "android-headers"]
+	path = android-headers
+	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/android-headers.git
+	branch = master
+[submodule "geoclue1"]
+	path = geoclue1
+	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/geoclue1.git
+	branch = master
+[submodule "libconnman-qt"]
+	path = libconnman-qt
+	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/libconnman-qt.git
+	branch = master
+[submodule "libhybris"]
+	path = libhybris
+	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/libhybris.git
+	branch = master
+[submodule "libiodata"]
+	path = libiodata
+	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/libiodata.git
+	branch = master
+[submodule "libmce-qt"]
+	path = libmce-qt
+	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/libmce-qt.git
+	branch = master
+[submodule "libmlocale"]
+	path = libmlocale
+	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/libmlocale.git
+	branch = master
+[submodule "libngf-qt"]
+	path = libngf-qt
+	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/libngf-qt.git
+	branch = master
+[submodule "libphonenumber"]
+	path = libphonenumber
+	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/libphonenumber.git
+	branch = master
+[submodule "libprofile-qt"]
+	path = libprofile-qt
+	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/libprofile-qt.git
+	branch = master
+[submodule "libqofonoext"]
+	path = libqofonoext
+	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/libqofonoext.git
+	branch = master
+[submodule "libresource"]
+	path = libresource
+	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/libresource.git
+	branch = master
+[submodule "libresourceqt"]
+	path = libresourceqt
+	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/libresourceqt.git
+	branch = master
+[submodule "libusb-moded-qt"]
+	path = libusb-moded-qt
+	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/libusb-moded-qt.git
+	branch = master
+[submodule "nemo-qml-plugin-calendar"]
+	path = nemo-qml-plugin-calendar
+	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/nemo-qml-plugin-calendar.git
+	branch = master
+[submodule "qt5-mlite-git"]
+	path = qt5-mlite-git
+	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/qt5-mlite-git.git
+	branch = master
+[submodule "qt5-qpa-hwcomposer-plugin"]
+	path = qt5-qpa-hwcomposer-plugin
+	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/qt5-qpa-hwcomposer-plugin.git
+	branch = master
+[submodule "qtcontacts-sqlite"]
+	path = qtcontacts-sqlite
+	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/qtcontacts-sqlite.git
+	branch = master
+[submodule "qtmpris"]
+	path = qtmpris
+	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/qtmpris.git
+	branch = master
+[submodule "abseil-cpp"]
+	path = abseil-cpp
+	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/abseil-cpp.git
+	branch = master
+[submodule "buteo-sync-plugin-carddav"]
+	path = buteo-sync-plugin-carddav
+	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/buteo-sync-plugin-carddav.git
+	branch = master
+[submodule "commhistory-daemon"]
+	path = commhistory-daemon
+	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/commhistory-daemon.git
+	branch = master
+[submodule "contactsd"]
+	path = contactsd
+	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/contactsd.git
+	branch = master
+[submodule "dsme"]
+	path = dsme
+	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/dsme.git
+	branch = master
+[submodule "fingerterm"]
+	path = fingerterm
+	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/fingerterm.git
+	branch = master
+[submodule "glacier-browser"]
+	path = glacier-browser
+	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/glacier-browser.git
+	branch = master
+[submodule "glacier-settings"]
+	path = glacier-settings
+	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/glacier-settings.git
+	branch = master
+[submodule "glacier-testtool"]
+	path = glacier-testtool
+	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/glacier-testtool.git
+	branch = master
+[submodule "libcommhistory"]
+	path = libcommhistory
+	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/libcommhistory.git
+	branch = master
+[submodule "libiphb"]
+	path = libiphb
+	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/libiphb.git
+	branch = master
+[submodule "libngf"]
+	path = libngf
+	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/libngf.git
+	branch = master
+[submodule "lipstick-glacier-home"]
+	path = lipstick-glacier-home
+	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/lipstick-glacier-home.git
+	branch = master
+[submodule "maliit-nemo-keyboard"]
+	path = maliit-nemo-keyboard
+	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/maliit-nemo-keyboard.git
+	branch = master
+[submodule "mce"]
+	path = mce
+	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/mce.git
+	branch = master
+[submodule "mce-headers"]
+	path = mce-headers
+	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/mce-headers.git
+	branch = master
+[submodule "mce-plugin-libhybris-nondroid"]
+	path = mce-plugin-libhybris-nondroid
+	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/mce-plugin-libhybris-nondroid.git
+	branch = master
+[submodule "mkcal"]
+	path = mkcal
+	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/mkcal.git
+	branch = master
+[submodule "nemo-keepalive"]
+	path = nemo-keepalive
+	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/nemo-keepalive.git
+	branch = master
+[submodule "nemo-qml-plugin-accounts"]
+	path = nemo-qml-plugin-accounts
+	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/nemo-qml-plugin-accounts.git
+	branch = master
+[submodule "nemo-qml-plugin-configuration"]
+	path = nemo-qml-plugin-configuration
+	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/nemo-qml-plugin-configuration.git
+	branch = master
+[submodule "nemo-qml-plugin-connectivity"]
+	path = nemo-qml-plugin-connectivity
+	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/nemo-qml-plugin-connectivity.git
+	branch = master
+[submodule "nemo-qml-plugin-contacts"]
+	path = nemo-qml-plugin-contacts
+	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/nemo-qml-plugin-contacts.git
+	branch = master
+[submodule "nemo-qml-plugin-devicelock"]
+	path = nemo-qml-plugin-devicelock
+	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/nemo-qml-plugin-devicelock.git
+	branch = master
+[submodule "nemo-qml-plugin-email"]
+	path = nemo-qml-plugin-email
+	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/nemo-qml-plugin-email.git
+	branch = master
+[submodule "nemo-qml-plugin-folderlistmodel"]
+	path = nemo-qml-plugin-folderlistmodel
+	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/nemo-qml-plugin-folderlistmodel.git
+	branch = master
+[submodule "nemo-qml-plugin-messages"]
+	path = nemo-qml-plugin-messages
+	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/nemo-qml-plugin-messages.git
+	branch = master
+[submodule "nemo-qml-plugin-notifications"]
+	path = nemo-qml-plugin-notifications
+	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/nemo-qml-plugin-notifications.git
+	branch = master
+[submodule "nemo-qml-plugin-settings"]
+	path = nemo-qml-plugin-settings
+	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/nemo-qml-plugin-settings.git
+	branch = master
+[submodule "nemo-qml-plugin-signon"]
+	path = nemo-qml-plugin-signon
+	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/nemo-qml-plugin-signon.git
+	branch = master
+[submodule "nemo-qml-plugin-statusnotifier"]
+	path = nemo-qml-plugin-statusnotifier
+	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/nemo-qml-plugin-statusnotifier.git
+	branch = master
+[submodule "nemo-qml-plugin-systemsettings"]
+	path = nemo-qml-plugin-systemsettings
+	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/nemo-qml-plugin-systemsettings.git
+	branch = master
+[submodule "nemo-qml-plugin-thumbnailer"]
+	path = nemo-qml-plugin-thumbnailer
+	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/nemo-qml-plugin-thumbnailer.git
+	branch = master
+[submodule "nemo-qml-plugin-time"]
+	path = nemo-qml-plugin-time
+	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/nemo-qml-plugin-time.git
+	branch = master
+[submodule "nemo-theme-glacier"]
+	path = nemo-theme-glacier
+	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/nemo-theme-glacier.git
+	branch = master
+[submodule "ngfd"]
+	path = ngfd
+	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/ngfd.git
+	branch = master
+[submodule "profiled"]
+	path = profiled
+	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/profiled.git
+	branch = master
+[submodule "profiled-settings-nemo"]
+	path = profiled-settings-nemo
+	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/profiled-settings-nemo.git
+	branch = master
+[submodule "qt5-glacier-app"]
+	path = qt5-glacier-app
+	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/qt5-glacier-app.git
+	branch = master
+[submodule "qt5-lipstick"]
+	path = qt5-lipstick
+	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/qt5-lipstick.git
+	branch = master
+[submodule "qt5-pim"]
+	path = qt5-pim
+	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/qt5-pim.git
+	branch = master
+[submodule "qt5-quickcontrols-nemo"]
+	path = qt5-quickcontrols-nemo
+	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/qt5-quickcontrols-nemo.git
+	branch = master
+[submodule "qtdocgallery"]
+	path = qtdocgallery
+	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/qtdocgallery.git
+	branch = master
+[submodule "qt-mobility-haptics-ffmemless"]
+	path = qt-mobility-haptics-ffmemless
+	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/qt-mobility-haptics-ffmemless.git
+	branch = master
+[submodule "sensorfw"]
+	path = sensorfw
+	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/sensorfw.git
+	branch = master
+[submodule "usb-moded"]
+	path = usb-moded
+	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/usb-moded.git
+	branch = master
+[submodule "tzdata-timed"]
+	path = tzdata-timed
+	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/tzdata-timed.git
+	branch = master
+[submodule "sailfish-access-control"]
+	path = sailfish-access-control
+	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/sailfish-access-control.git
 	branch = master
