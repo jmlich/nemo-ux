@@ -122,10 +122,6 @@
 	path = nemo-qml-plugin-sortfiltermodel-git
 	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/nemo-qml-plugin-sortfiltermodel-git.git
 	branch = master
-[submodule "glacier-calc-git"]
-	path = glacier-calc-git
-	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/glacier-calc-git.git
-	branch = master
 [submodule "google-opensans-fonts"]
 	path = google-opensans-fonts
 	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/google-opensans-fonts.git
@@ -633,4 +629,8 @@
 [submodule "nemo-theme-openmoko-git"]
 	path = nemo-theme-openmoko-git
 	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/nemo-theme-openmoko-git.git
+	branch = master
+[submodule "glacier-calc"]
+	path = glacier-calc
+	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/glacier-calc.git
 	branch = master
