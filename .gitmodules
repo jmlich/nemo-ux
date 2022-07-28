@@ -626,3 +626,7 @@
 	path = tzdata-timed-git
 	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/tzdata-timed-git.git
 	branch = master
+[submodule "timed"]
+	path = timed
+	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/timed.git
+	branch = master
