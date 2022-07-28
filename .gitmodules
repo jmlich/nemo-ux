@@ -54,21 +54,9 @@
 	path = qt5-around-git
 	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/qt5-around-git.git
 	branch = master
-[submodule "glacier-dialer-git"]
-	path = glacier-dialer-git
-	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/glacier-dialer-git.git
-	branch = master
 [submodule "voicecall"]
 	path = voicecall
 	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/voicecall.git
-	branch = master
-[submodule "glacier-contacts-git"]
-	path = glacier-contacts-git
-	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/glacier-contacts-git.git
-	branch = master
-[submodule "glacier-messages-git"]
-	path = glacier-messages-git
-	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/glacier-messages-git.git
 	branch = master
 [submodule "qmf-qt5"]
 	path = qmf-qt5
@@ -126,14 +114,6 @@
 	path = qt5-dbus-extended-git
 	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/qt5-dbus-extended-git.git
 	branch = master
-[submodule "glacier-gallery-git"]
-	path = glacier-gallery-git
-	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/glacier-gallery-git.git
-	branch = master
-[submodule "glacier-filemuncher-git"]
-	path = glacier-filemuncher-git
-	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/glacier-filemuncher-git.git
-	branch = master
 [submodule "glacier-camera-git"]
 	path = glacier-camera-git
 	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/glacier-camera-git.git
@@ -178,25 +158,13 @@
 	path = devices/nemo-device-pinephone
 	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/nemo-device-pinephone.git
 	branch = master
-[submodule "glacier-mail-git"]
-	path = glacier-mail-git
-	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/glacier-mail-git.git
-	branch = master
 [submodule "mlite"]
 	path = mlite
 	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/qt5-mlite-git.git
 	branch = master
-[submodule "qt5-quickcontrols-nemo-examples-git"]
-	path = qt5-quickcontrols-nemo-examples-git
-	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/qt5-quickcontrols-nemo-examples-git.git
-	branch = master
 [submodule "nemo-qml-plugin-models"]
 	path = nemo-qml-plugin-models
 	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/nemo-qml-plugin-models-git.git
-	branch = master
-[submodule "nemo-theme-openmoko-git"]
-	path = nemo-theme-openmoko-git
-	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/nemo-theme-openmoko-git.git
 	branch = master
 [submodule "pulseaudio-policy-enforcement"]
 	path = pulseaudio-policy-enforcement
@@ -226,17 +194,9 @@
 	path = glacier-devicelock-plugin
 	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/glacier-devicelock-plugin.git
 	branch = master
-[submodule "glacier-packagemanager-git"]
-	path = glacier-packagemanager-git
-	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/glacier-packagemanager-git.git
-	branch = master
 [submodule "glacier-polkit-agent"]
 	path = glacier-polkit-agent
 	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/glacier-polkit-agent.git
-	branch = master
-[submodule "glacier-weather-git"]
-	path = glacier-weather-git
-	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/glacier-weather-git.git
 	branch = master
 [submodule "gpxpy-git"]
 	path = gpxpy-git
@@ -629,4 +589,48 @@
 [submodule "timed"]
 	path = timed
 	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/timed.git
+	branch = master
+[submodule "glacier-contacts"]
+	path = glacier-contacts
+	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/glacier-contacts.git
+	branch = master
+[submodule "glacier-dialer"]
+	path = glacier-dialer
+	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/glacier-dialer.git
+	branch = master
+[submodule "glacier-filemuncher"]
+	path = glacier-filemuncher
+	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/glacier-filemuncher.git
+	branch = master
+[submodule "glacier-gallery"]
+	path = glacier-gallery
+	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/glacier-gallery.git
+	branch = master
+[submodule "glacier-mail"]
+	path = glacier-mail
+	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/glacier-mail.git
+	branch = master
+[submodule "glacier-messages"]
+	path = glacier-messages
+	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/glacier-messages.git
+	branch = master
+[submodule "glacier-packagemanager"]
+	path = glacier-packagemanager
+	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/glacier-packagemanager.git
+	branch = master
+[submodule "glacier-weather"]
+	path = glacier-weather
+	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/glacier-weather.git
+	branch = master
+[submodule "qt5-quickcontrols-nemo-examples"]
+	path = qt5-quickcontrols-nemo-examples
+	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/qt5-quickcontrols-nemo-examples.git
+	branch = master
+[submodule "nemo-theme-openmoko"]
+	path = nemo-theme-openmoko
+	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/nemo-theme-openmoko.git
+	branch = master
+[submodule "nemo-theme-openmoko-git"]
+	path = nemo-theme-openmoko-git
+	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/nemo-theme-openmoko-git.git
 	branch = master
