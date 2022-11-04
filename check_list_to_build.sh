@@ -60,7 +60,7 @@ function print_arr() {
 #print_arr "${PACKAGES_BUILD[*]}"
 #print_arr "${PACKAGES_FILES[*]}"
 echo "========== ADDED =========="
-print_arr "${PACKAGES_TO_ADD[*]}"
+print_arr "${PACKAGES_TO_ADD[*]}" |sort -u
 echo "========== REMOVED =========="
-print_arr "${PACKAGES_TO_REMOVE[*]}"
+print_arr "${PACKAGES_TO_REMOVE[*]}" |sort -u
 
