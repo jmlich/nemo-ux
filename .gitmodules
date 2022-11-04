@@ -94,10 +94,6 @@
 	path = qt5-ofono-nemo-extensions-git
 	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/qt5-ofono-nemo-extensions-git.git
 	branch = master
-[submodule "glacier-pinquery-git"]
-	path = glacier-pinquery-git
-	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/glacier-pinquery-git.git
-	branch = master
 [submodule "libqofono-qt5"]
 	path = libqofono-qt5
 	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/libqofono-qt5.git
@@ -106,17 +102,9 @@
 	path = ssu-sysinfo-git
 	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/ssu-sysinfo-git.git
 	branch = master
-[submodule "glacier-music-git"]
-	path = glacier-music-git
-	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/glacier-music-git.git
-	branch = master
 [submodule "qt5-dbus-extended-git"]
 	path = qt5-dbus-extended-git
 	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/qt5-dbus-extended-git.git
-	branch = master
-[submodule "glacier-camera-git"]
-	path = glacier-camera-git
-	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/glacier-camera-git.git
 	branch = master
 [submodule "nemo-qml-plugin-sortfiltermodel-git"]
 	path = nemo-qml-plugin-sortfiltermodel-git
@@ -633,4 +621,20 @@
 [submodule "glacier-calc"]
 	path = glacier-calc
 	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/glacier-calc.git
+	branch = master
+[submodule "glacier-camera"]
+	path = glacier-camera
+	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/glacier-camera.git
+	branch = master
+[submodule "glacier-music"]
+	path = glacier-music
+	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/glacier-music.git
+	branch = master
+[submodule "glacier-pinquery"]
+	path = glacier-pinquery
+	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/glacier-pinquery.git
+	branch = master
+[submodule "glacier-settings-developermode"]
+	path = glacier-settings-developermode
+	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/glacier-settings-developermode.git
 	branch = master
