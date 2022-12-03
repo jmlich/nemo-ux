@@ -25,13 +25,17 @@ fi
 # NemoMobile packages
 eval "$BUILD nemo-theme-glacier"
 eval "$BUILD abseil-cpp"
+
+if [ "$BUILDARCH" != "aarch64" ]; then
 eval "$BUILD libphonenumber"
+fi
 eval "$BUILD libglibutil"
 eval "$BUILD libwspcodec"
 eval "$BUILD libdbusaccess"
 eval "$BUILD libdbuslog"
 eval "$BUILD ofono"
 
+eval "$BUILD nemo-qml-plugin-dbus"
 eval "$BUILD geoclue1"
 eval "$BUILD nemo-qml-plugin-settings"
 eval "$BUILD nemo-qml-plugin-folderlistmodel"
@@ -122,10 +126,8 @@ eval "$BUILD presage2-lang"
 #Glacier UX packages
 eval "$BUILD nemo-theme-openmoko"
 eval "$BUILD google-opensans-fonts"
-eval "$BUILD maliit-nemo-keyboard"
-eval "$BUILD maliit-input-context-gtk"
-eval "$BUILD qt5-quickcontrols-nemo"
 eval "$BUILD qt5-glacier-app"
+eval "$BUILD qt5-quickcontrols-nemo"
 eval "$BUILD glacier-calc"
 eval "$BUILD glacier-filemuncher"
 eval "$BUILD glacier-camera"
@@ -137,6 +139,8 @@ eval "$BUILD qt5-quickcontrols-nemo-examples"
 eval "$BUILD glacier-pinquery"
 eval "$BUILD qt5-lipstick"
 eval "$BUILD glacier-settings"
+eval "$BUILD maliit-nemo-keyboard"
+eval "$BUILD maliit-input-context-gtk"
 eval "$BUILD glacier-testtool"
 eval "$BUILD lipstick-glacier-home"
 eval "$BUILD glacier-wayland-session"
@@ -150,6 +154,7 @@ eval "$BUILD glacier-calendar"
 eval "$BUILD glacier-alarmclock"
 eval "$BUILD glacier-alarm-listener"
 eval "$BUILD glacier-settings-accounts"
+eval "$BUILD glacier-settings-developermode"
 
 # pure-maps packages
 if [ "$BUILDARCH" != "aarch64" ]; then
