@@ -11,8 +11,13 @@ if [ -z "$GITLAB_PRIVATE_TOKEN" ];then
     exit 1
 fi
 
-gitlab_data="$(mktemp /tmp/gitlab.XXXXXXX)"
-curl --request GET --header "PRIVATE-TOKEN: $GITLAB_PRIVATE_TOKEN" "${BASE_URL}/api/v4/groups/${GROUP_NAME}/projects?per_page=1000" > "$gitlab_data"
+gitlab_data=./repos.json
+if /bin/false; then
+    rm -f "$gitlab_data"
+    for i in $(seq 1 4); do
+        curl --request GET --header "PRIVATE-TOKEN: $GITLAB_PRIVATE_TOKEN" "${BASE_URL}/api/v4/groups/${GROUP_NAME}/projects?per_page=100&page=$i" >> "$gitlab_data"
+    done
+fi
 
 for PROJECT in $(jq --raw-output '.[].id|@text' "$gitlab_data"); do
 

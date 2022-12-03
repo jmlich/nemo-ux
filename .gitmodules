@@ -638,3 +638,11 @@
 	path = glacier-settings-developermode
 	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/glacier-settings-developermode.git
 	branch = master
+[submodule "glacier-calc-git"]
+	path = glacier-calc-git
+	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/glacier-calc-git.git
+	branch = master
+[submodule "nemo-qml-plugin-dbus"]
+	path = nemo-qml-plugin-dbus
+	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/nemo-qml-plugin-dbus.git
+	branch = master

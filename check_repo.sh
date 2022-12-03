@@ -15,7 +15,7 @@ fi
 gitlab_data=./repos.json
 if /bin/false; then
     rm -f "$gitlab_data"
-    for i in 1 2 3 4; do
+    for i in $(seq 1 4); do
         curl --request GET --header "PRIVATE-TOKEN: $GITLAB_PRIVATE_TOKEN" "${BASE_URL}/api/v4/groups/${GROUP_NAME}/projects?per_page=100&page=$i" >> "$gitlab_data"
     done
 fi
