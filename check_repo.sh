@@ -20,6 +20,13 @@ if /bin/false; then
     done
 fi
 
+declare -a skip_list=(
+    # skip /hybris directory
+    'android-headers'
+    'libhybris'
+    'qt5-qpa-hwcomposer-plugin'
+)
+
 #echo "#!/bin/bash" > repos.sh
 #echo "declare -A bash_array" >> repos.sh
 #jq -r 'paths(scalars) as $p | "bash_array[\"\($p|[.[]|tostring]|join("."))\"]=\"\(getpath($p))\""'  -r $gitlab_data >> ./repos.sh
@@ -37,6 +44,9 @@ for SSH in $(jq --raw-output '.[].ssh_url_to_repo|@text' "$gitlab_data"|sort); d
                 rm -rf .git/modules/${slug}-git
                 git rm -f ${slug}-git
         else
+                if [[ " ${skip_list[*]} " =~ " $slug " ]]; then
+                    continue
+                fi
                 echo "# Add submodule $slug"
 echo                git submodule add -b master -- "$SSH" "$slug"
 #                git submodule add -b master -- "$SSH" "$slug"
