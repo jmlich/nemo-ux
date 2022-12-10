@@ -46,10 +46,6 @@
 	path = usb-tethering
 	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/usb-tethering.git
 	branch = master
-[submodule "sailfish-access-control-qt5-git"]
-	path = sailfish-access-control-qt5-git
-	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/sailfish-access-control-qt5-git.git
-	branch = master
 [submodule "qt5-around-git"]
 	path = qt5-around-git
 	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/qt5-around-git.git
