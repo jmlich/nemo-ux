@@ -626,3 +626,7 @@
 	path = nemo-qml-plugin-dbus
 	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/nemo-qml-plugin-dbus.git
 	branch = master
+[submodule "mlite"]
+	path = mlite
+	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/mlite.git
+	branch = master
