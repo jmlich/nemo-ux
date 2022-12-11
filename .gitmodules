@@ -138,10 +138,6 @@
 	path = devices/nemo-device-pinephone
 	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/nemo-device-pinephone.git
 	branch = master
-[submodule "mlite"]
-	path = mlite
-	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/qt5-mlite-git.git
-	branch = master
 [submodule "nemo-qml-plugin-models"]
 	path = nemo-qml-plugin-models
 	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/nemo-qml-plugin-models-git.git
