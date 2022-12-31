@@ -518,3 +518,7 @@
 	path = mlite
 	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/mlite.git
 	branch = master
+[submodule "systemctl-user"]
+	path = systemctl-user
+	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/systemctl-user.git
+	branch = master
