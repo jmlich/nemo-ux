@@ -522,3 +522,6 @@
 	path = systemctl-user
 	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/systemctl-user.git
 	branch = master
+[submodule "telepathy-ring"]
+	path = telepathy-ring
+	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/telepathy-ring.git
