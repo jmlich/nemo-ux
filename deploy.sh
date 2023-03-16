@@ -25,10 +25,9 @@ fi
 # NemoMobile packages
 eval "$BUILD nemo-theme-glacier"
 eval "$BUILD abseil-cpp"
+eval "$BUILD forks/maliit-framework"
 
-if [ "$BUILDARCH" != "aarch64" ]; then
-eval "$BUILD libphonenumber"
-fi
+eval "$BUILD libphonenumber-nemo"
 eval "$BUILD libglibutil"
 eval "$BUILD libwspcodec"
 eval "$BUILD libdbusaccess"
@@ -39,6 +38,7 @@ if [ "$BUILDARCH" != "aarch64" ]; then
     eval "$BUILD telepathy-ofono"
 fi
 
+eval "$BUILD nemo-qml-plugin-social"
 eval "$BUILD nemo-qml-plugin-dbus"
 eval "$BUILD geoclue1"
 eval "$BUILD nemo-qml-plugin-settings"
@@ -120,6 +120,7 @@ eval "$BUILD nemo-qml-plugin-messages"
 eval "$BUILD mkcal"
 eval "$BUILD contactsd"
 eval "$BUILD telepathy-mission-control"
+eval "$BUILD telepathy-ring"
 eval "$BUILD voicecall"
 eval "$BUILD nemo-qml-plugin-email"
 eval "$BUILD usb-tethering"
