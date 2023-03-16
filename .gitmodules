@@ -198,10 +198,6 @@
 	path = libngf-qt
 	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/libngf-qt.git
 	branch = master
-[submodule "libphonenumber"]
-	path = libphonenumber
-	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/libphonenumber.git
-	branch = master
 [submodule "libprofile-qt"]
 	path = libprofile-qt
 	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/libprofile-qt.git
