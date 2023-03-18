@@ -526,3 +526,7 @@
 	path = libphonenumber-nemo
 	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/libphonenumber-nemo.git
 	branch = master
+[submodule "libdbusaccess"]
+	path = libdbusaccess
+	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/libdbusaccess.git
+	branch = master
