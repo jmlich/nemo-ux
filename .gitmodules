@@ -530,3 +530,23 @@
 	path = libdbusaccess
 	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/libdbusaccess.git
 	branch = master
+[submodule "libwspcodec"]
+	path = libwspcodec
+	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/libwspcodec.git
+	branch = master
+[submodule "telepathy-ofono"]
+	path = telepathy-ofono
+	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/telepathy-ofono.git
+	branch = master
+[submodule "nemo-qml-plugin-social"]
+	path = nemo-qml-plugin-social
+	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/nemo-qml-plugin-social.git
+	branch = master
+[submodule "libglibutil"]
+	path = libglibutil
+	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/libglibutil.git
+	branch = master
+[submodule "libdbuslog"]
+	path = libdbuslog
+	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/libdbuslog.git
+	branch = master
