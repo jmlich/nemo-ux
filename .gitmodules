@@ -550,3 +550,6 @@
 	path = libdbuslog
 	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/libdbuslog.git
 	branch = master
+[submodule "maliit-framework-qt6"]
+	path = maliit-framework-qt6
+	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/maliit-framework-qt6.git
