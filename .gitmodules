@@ -553,3 +553,8 @@
 [submodule "maliit-framework-qt6"]
 	path = maliit-framework-qt6
 	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/maliit-framework-qt6.git
+	branch = master
+[submodule "libaccounts-qt6"]
+	path = libaccounts-qt6
+	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/libaccounts-qt6.git
+	branch = master
