@@ -558,3 +558,14 @@
 	path = libaccounts-qt6
 	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/libaccounts-qt6.git
 	branch = master
+[submodule "qt6-feedback"]
+	path = qt6-feedback
+	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/qt6-feedback.git
+	branch = master
+[submodule "qt6-old-features"]
+	path = qt6-old-features
+	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/qt6-old-features.git
+	branch = master
+[submodule "signond6"]
+	path = signond6
+	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/signond6.git
