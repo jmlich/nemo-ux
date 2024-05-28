@@ -298,10 +298,6 @@
 	path = mce-plugin-libhybris-nondroid
 	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/mce-plugin-libhybris-nondroid.git
 	branch = master
-[submodule "mkcal"]
-	path = mkcal
-	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/mkcal.git
-	branch = master
 [submodule "nemo-keepalive"]
 	path = nemo-keepalive
 	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/nemo-keepalive.git
@@ -569,3 +565,8 @@
 [submodule "signond6"]
 	path = signond6
 	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/signond6.git
+	branch = master
+[submodule "mkcal6"]
+	path = mkcal6
+	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/mkcal6.git
+	branch = master
