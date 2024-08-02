@@ -570,3 +570,7 @@
 	path = mkcal6
 	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/mkcal6.git
 	branch = master
+[submodule "presage2-lang"]
+	path = presage2-lang
+	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/presage2-lang.git
+	branch = master
