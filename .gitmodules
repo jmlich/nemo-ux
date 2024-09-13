@@ -574,3 +574,7 @@
 	path = presage2-lang
 	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/presage2-lang.git
 	branch = master
+[submodule "amber-mpris"]
+	path = amber-mpris
+	url = ssh://git@gitlab.manjaro.org:22277/manjaro-arm/packages/community/nemo-ux/amber-mpris.git
+	branch = master
